@@ -14,9 +14,9 @@ oddEven(6);
 
 //Task 2
 
-function squareNumber(n){
+const squareNumber = function(n){
     let square = n * n;
-    console.log(square);
+    return square;
 }
 
-squareNumber(5);
+console.log(squareNumber(5));
