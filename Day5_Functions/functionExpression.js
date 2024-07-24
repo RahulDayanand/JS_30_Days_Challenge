@@ -3,11 +3,7 @@
 //Task 3
 
 const maxNumber = function(num1, num2){
-    let max = num1;
-
-    if(num1 < num2){
-        max = num2;
-    } 
+    let max = (num1 > num2) ? num1 : num2;
     console.log(max);
 }
 
